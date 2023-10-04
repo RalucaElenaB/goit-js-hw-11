@@ -16,7 +16,8 @@ const handleSubmit = e => {
   clearHTML(gallery);
   let input = e.target.elements.searchQuery.value.trim().toLowerCase();
   pageNum = 1;
-  getImages(input, pageNum);
+  let response = getImages(input, pageNum);
+  return response;
 };
 
 const handleSecondarySubmit = e => {
