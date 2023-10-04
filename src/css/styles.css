@@ -101,8 +101,8 @@
 .load-more {
   color: rgb(49, 125, 168);
   margin: 0 auto;
-  width: 120px; /* Lățimea dorită */
-  height: 30px; /* Înălțimea dorită */
+  width: 150px; /* Lățimea dorită */
+  height: 50px; /* Înălțimea dorită */
   font-size: 15px;
   font-weight: bold;
   font-family: 'Bungee Hairline', cursive;
@@ -137,7 +137,7 @@
   background-image: linear-gradient(
     180deg,
     rgb(246, 246, 241) 0%,
-    rgb(224, 164, 91) 56%,
+    rgb(241, 175, 94) 56%,
     rgb(32, 90, 123) 100%
   );
   background-repeat: no-repeat;
@@ -204,12 +204,13 @@ input {
   margin: 1px;
   cursor: pointer;
   transition: background 0.9s;
-  width: 100px; /* Lățimea dorită */
+  width: 50px; /* Lățimea dorită */
   height: 50px; /* Înălțimea dorită */
   color: rgb(49, 125, 168);
   cursor: pointer; /* Cursorul devine de tip pointer la interacțiunea cu butonul */
   font-family: 'Bungee Hairline', cursive;
   float: right;
+  font-weight: bold;
 }
 
 .hidden {
