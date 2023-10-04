@@ -105,7 +105,7 @@
   height: 50px; /* Înălțimea dorită */
   font-size: 15px;
   font-weight: bold;
-  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Bungee Hairline';
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
@@ -147,7 +147,7 @@
 }
 
 input {
-  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Bungee Hairline';
   font-size: 18px;
   font-weight: 600px;
   border-radius: 5px;
@@ -187,7 +187,7 @@ input {
 }
 
 .up-button {
-  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Bungee Hairline';
   font-size: 20px;
   background: linear-gradient(
     180deg,
@@ -208,7 +208,7 @@ input {
   height: 50px; /* Înălțimea dorită */
   color: rgb(49, 125, 168);
   cursor: pointer; /* Cursorul devine de tip pointer la interacțiunea cu butonul */
-  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Bungee Hairline';
   float: right;
   font-weight: bold;
 }
