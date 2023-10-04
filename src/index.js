@@ -1,4 +1,4 @@
-import getImages from './js/get-images';
+import getImages from './get-images';
 import './css/styles.css';
 
 const form = document.querySelector('.search-form');
