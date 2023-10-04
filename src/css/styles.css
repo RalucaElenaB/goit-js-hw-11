@@ -184,6 +184,7 @@ input {
     rgb(183, 214, 231) 100%
   );
   color: rgb(49, 125, 168);
+  font-weight: bold;
 }
 
 .up-button {
