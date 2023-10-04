@@ -1,6 +1,35 @@
 :root {
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --animation-duration: 250ms;
+  background-image: linear-gradient(
+      45deg,
+      rgba(215, 196, 215, 0.122) 0%,
+      rgba(235, 210, 182, 0.117) 35%,
+      rgba(133, 163, 183, 0.122) 100%,
+      transparent 25%
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(215, 196, 215, 0.122) 0%,
+      rgba(235, 210, 182, 0.117) 35%,
+      rgba(133, 163, 183, 0.122) 100%,
+      transparent 25%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 75%,
+      rgba(215, 196, 215, 0.122) 0%,
+      rgba(235, 210, 182, 0.117) 35%,
+      rgba(133, 163, 183, 0.122) 100%,
+      transparent 25%
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75%,
+      rgba(62, 1, 64, 0.12230829831932777) 0%,
+      rgba(121, 68, 9, 0.11670605742296913) 35%,
+      rgba(0, 134, 223, 0.12230829831932777) 100%
+    );
 }
 
 .photo {
@@ -70,7 +99,7 @@
 }
 
 .load-more {
-  color: rgb(86, 132, 158);
+  color: rgb(49, 125, 168);
   margin: 0 auto;
   width: 120px; /* Lățimea dorită */
   height: 30px; /* Înălțimea dorită */
@@ -82,11 +111,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgb(246, 246, 241) 0%,
-    rgb(241, 221, 197) 56%,
-    rgb(184, 200, 209) 100%
+    rgb(237, 213, 184) 56%,
+    rgb(183, 214, 231) 100%
   );
   border-radius: 5px;
   border: rgba(255, 255, 255, 0.161) 1px solid;
@@ -100,6 +129,7 @@
 .load-more:focus {
   color: rgb(33, 87, 152);
 }
+
 .search-form {
   display: flex;
   align-items: center;
@@ -107,8 +137,8 @@
   background-image: linear-gradient(
     180deg,
     rgb(246, 246, 241) 0%,
-    rgb(241, 221, 197) 56%,
-    rgb(184, 200, 209) 100%
+    rgb(224, 164, 91) 56%,
+    rgb(32, 90, 123) 100%
   );
   background-repeat: no-repeat;
   width: 100vw;
@@ -118,7 +148,7 @@
 
 input {
   font-family: 'Bungee Hairline', cursive;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600px;
   border-radius: 5px;
   border: rgba(255, 255, 255, 0.161) 1px solid;
@@ -133,9 +163,9 @@ input {
   color: rgb(86, 132, 158);
 }
 
-submit-btn {
+.submit-btn {
   font-family: 'Bungee Hairline', cursive;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600px;
   border-radius: 5px;
   border: rgba(255, 255, 255, 0.161) 1px solid;
@@ -147,16 +177,23 @@ submit-btn {
   max-width: 200px;
   width: 100px; /* Lățimea dorită */
   height: 50px; /* Înălțimea dorită */
+  background: linear-gradient(
+    180deg,
+    rgb(246, 246, 241) 0%,
+    rgb(237, 213, 184) 56%,
+    rgb(183, 214, 231) 100%
+  );
+  color: rgb(49, 125, 168);
 }
 
-button {
+.up-button {
   font-family: 'Bungee Hairline', cursive;
   font-size: 20px;
   background: linear-gradient(
     180deg,
-    rgb(222, 222, 205) 0%,
-    rgb(227, 201, 170) 56%,
-    rgb(117, 166, 195) 100%
+    rgb(246, 246, 241) 0%,
+    rgb(237, 213, 184) 56%,
+    rgb(183, 214, 231) 100%
   );
   border-radius: 5px;
   border: rgba(255, 255, 255, 0.161) 1px solid;
@@ -169,10 +206,7 @@ button {
   transition: background 0.9s;
   width: 100px; /* Lățimea dorită */
   height: 50px; /* Înălțimea dorită */
-  color: rgb(86, 132, 158);
-}
-
-.up-button {
+  color: rgb(49, 125, 168);
   cursor: pointer; /* Cursorul devine de tip pointer la interacțiunea cu butonul */
   font-family: 'Bungee Hairline', cursive;
   float: right;
