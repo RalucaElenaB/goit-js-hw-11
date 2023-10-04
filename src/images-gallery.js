@@ -1,7 +1,7 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-export default displayGallery = images => {
+export default function displayGallery(images) {
   const gallery = document.querySelector('.photo');
   const galleryMarkup = images.hits
     .map(
@@ -29,7 +29,7 @@ export default displayGallery = images => {
     .join('');
   gallery.insertAdjacentHTML('beforeEnd', galleryMarkup);
   simpleLightbox();
-};
+}
 
 function simpleLightbox() {
   const galleryHandler = new SimpleLightbox('.photo-card a', {
