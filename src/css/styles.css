@@ -227,3 +227,16 @@ input {
 .hidden {
   display: none;
 }
+
+@media (min-width: 768px) {
+  .section {
+    width: 236px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    width: 241px;
+  }
+}

@@ -7,24 +7,26 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input
-        id="search-query"
-        type="text"
-        name="searchQuery"
-        autocomplete="off"
-        placeholder="Search images..."
-        pattern="([A-zÀ-ž\s]){1,}"
-        required
-      />
-      <button id="search-btn" class="button submit-btn" type="submit">
-        Search
-      </button>
-    </form>
-    <div class="photo"></div>
-    <button type="button" class="load-more hidden">Load more ...</button>
-    <button type="button" class="up-button hidden">Up &#8593;</button>
+    <section>
+      <form class="search-form" id="search-form">
+        <input
+          id="search-query"
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          pattern="([A-zÀ-ž\s]){1,}"
+          required
+        />
+        <button id="search-btn" class="button submit-btn" type="submit">
+          Search
+        </button>
+      </form>
+      <div class="photo"></div>
+      <button type="button" class="load-more hidden">Load more ...</button>
+      <button type="button" class="up-button hidden">Up &#8593;</button>
 
-    <script type="module" src="./index.js"></script>
+      <script type="module" src="./index.js"></script>
+    </section>
   </body>
 </html>
