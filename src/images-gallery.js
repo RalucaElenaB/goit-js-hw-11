@@ -12,16 +12,16 @@ export default function displayGallery(images) {
             </a>
             <div class="info">
               <p class="info-item">
-                <b>Likes</b>${image.likes}
+                <b>Likes</b><span class="likes">${image.likes}</span>
               </p>
               <p class="info-item">
-                <b>Views</b>${image.views}
+                <b>Views</b><span class="views">${image.views}</span>
               </p>
               <p class="info-item">
-                <b>Comments</b>${image.comments}
+                <b>Comments</b><span class="comments">${image.comments}</span>
               </p>
               <p class="info-item">
-                <b>Downloads</b>${image.downloads}
+                <b>Downloads</b><span class="downloads">${image.downloads}</span>
               </p>
             </div>
         </div>`
