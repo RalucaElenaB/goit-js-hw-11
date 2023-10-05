@@ -159,8 +159,8 @@ input {
   font-size: 18px;
   font-weight: 600px;
   border-radius: 5px;
-  border: rgba(255, 255, 255, 0.161) 1px solid;
-  box-shadow: rgb(216, 225, 233) 3px 3px 6px 0px inset,
+  border: rgb(32, 90, 123) 1px solid;
+  box-shadow: rgb(32, 90, 123) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   padding: 2px;
   margin-left: 5px;
