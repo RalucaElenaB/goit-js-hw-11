@@ -1,4 +1,4 @@
-.container {
+/* .container {
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -7,13 +7,12 @@
   .container {
     max-width: 768px;
   }
-}
-
+} 
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 1024px;
   }
-}
+} */
 
 :root {
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
