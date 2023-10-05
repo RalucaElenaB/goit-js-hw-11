@@ -183,7 +183,7 @@ input {
   margin: 0 auto;
   width: 150px; /* Lățimea dorită */
   height: 50px; /* Înălțimea dorită */
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
   font-family: 'Bungee Hairline', cursive;
   margin-top: 30px;
@@ -205,6 +205,12 @@ input {
   background-color: whitesmoke;
 }
 
+.up-button {
+  float: right;
+  width: 60px; /* Lățimea dorită */
+  height: 50px; /* Înălțimea dorită */
+}
+
 .load-more:hover,
 .load-more:focus,
 .up-button:hover,
@@ -216,12 +222,6 @@ input {
     rgb(241, 175, 94) 56%,
     rgb(32, 90, 123) 100%
   );
-}
-
-.up-button {
-  float: right;
-  width: 60px; /* Lățimea dorită */
-  height: 50px; /* Înălțimea dorită */
 }
 
 .hidden {
